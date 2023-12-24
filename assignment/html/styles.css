@@ -1,0 +1,168 @@
+header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    width: 100%;
+    background: #05445E;
+    align-items: center;
+    color: white;
+}
+
+nav {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    /* border: 2px solid white; */
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav h1 {
+    font-style: italic;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+p {
+    margin: auto 0;
+    padding: 0;
+    display: inline;
+}
+
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section {
+    margin: 14vh auto;
+    width: 85%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.content-section {
+    margin: 14vh auto;
+    width: 85%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+.main-right {
+    margin: auto;
+}
+
+.main-left {
+    text-align: center;
+    margin: auto;
+}
+
+.main-left h1 {
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+.main-left h1 span {
+    color: #189AB4;
+    font-style: italic;
+    transition: text-shadow 0.2s;
+}
+
+.main-left h1 span:hover {
+    text-shadow: 5px 5px #d0d0d0;
+}
+
+
+.main-left p {
+    font-style: italic;
+}
+
+.html,
+.css {
+    display: flex;
+}
+
+.html img {
+    height: 15em;
+    margin: auto;
+}
+
+.css img {
+    height: 15em;
+    margin: auto;
+}
+
+.css-img,
+.html-css {
+    margin: auto;
+}
+
+nav img {
+    height: 1.5em;
+    margin: auto;
+}
+
+.nav-left-icon {
+    justify-content: left;
+    display: flex;
+    width: 2em;
+}
+
+nav h1 {
+    margin-left: 0.5em;
+}
+
+.input-button {
+    color: white;
+    background-color: #189AB4;
+    /* border: 1px solid white; */
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    transition: color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.input-button:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+footer {
+    display: flex;
+    padding: 2em 0;
+    /* height: 4em; */
+    background: #D4F1F4;
+    color: black;
+}
+
+.footer-section {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section a {
+    color: black;
+}
